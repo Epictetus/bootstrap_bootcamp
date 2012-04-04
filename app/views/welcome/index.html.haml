@@ -1,4 +1,10 @@
-%h2 グリッド
+%h2 See
+
+%ul
+  %li= link_to 'http://twitter.github.com/bootstrap/scaffolding.html'
+  %li= link_to 'http://twitter.github.com/bootstrap/base-css.html'
+
+%h2 Grid
 
 .row
   .span4
@@ -68,3 +74,23 @@
 .row
   .span4.offset8
     .well span4 offset8
+
+%h3 ネスト
+.row
+  .span12
+    span12
+    .row
+      .span6
+        span6
+        .row
+          .span2
+            span2
+          .span4
+            span4
+      .span6
+        span6
+        .row
+          .span5
+            span5
+          .span1
+            span1
