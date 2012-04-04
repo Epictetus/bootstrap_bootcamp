@@ -1,4 +1,6 @@
 BootstrapBootcamp::Application.routes.draw do
+  resources :entries
+
   root to: 'welcome#index'
 
   # The priority is based upon order of creation:
